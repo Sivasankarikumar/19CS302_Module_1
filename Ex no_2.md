@@ -1,38 +1,35 @@
-# EX 2 C program to check whether the person has fever using simple if statement. 
-## AIM:
-To write a program to check whether the person has fever using simple if statement. 
+# EX 2 C program to check whether the attendance is PRESENT using simple if statement.
+## DATE:17/03/2026
+### AIM:
+To write a program to check whether the attendance is PRESENT using simple if statement.
 
-## Algorithm
-1. Read the temperature from the user.
-2. Check if the temperature is greater than 100.
-3. If it is, display "Has Fever".
-4. End the program.
-  
+### Algorithm:
+1. Start.
+2. Declare a variable value of type char.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Check whether the attendance is PRESENT.
+6. If true, print "Present".
+7. If false, print " ".
+8. End.   
 
-## Program:
-```
-/*
-Program to check whether the person has fever using simple if statement. 
-Developed by: Sai Ranjani K
-RegisterNumber:  212222060210
-*/
-#include<stdio.h>
+### Program:
+```c program
+#include<stdio.h> 
 int main()
 {
-    int temp;
-    scanf("%d",&temp);
-    
-    if(temp>100)
-    {
-        printf("Has Fever");
-    }
+char p1; 
+scanf("%c", &p1);
+if(p1=='P')
+{
+printf("Present");
+}
+return 0;
 }
 ```
-
-## Output:
-
-![image](https://github.com/user-attachments/assets/4953ffb5-63b2-41e2-92d0-3fcaa6a61c9c)
+### Output:
+![image](https://github.com/user-attachments/assets/da0a3d7c-b5d9-4476-972d-da42d5737d74)
 
 
-## Result:
+### Result:
 Thus the program was executed and the output was verified successfully.
