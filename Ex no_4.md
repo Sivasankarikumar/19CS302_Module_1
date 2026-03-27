@@ -35,6 +35,5 @@ int main() {
 ![image](https://github.com/user-attachments/assets/45d00046-d00f-4a35-9d7f-d27c5c311f9c)
 
 
-
 ### Result:
 Thus the program was executed and the output was verified successfully.
