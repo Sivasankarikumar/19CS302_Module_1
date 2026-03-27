@@ -10,7 +10,7 @@ To write a C program to calculate the total marks, average, and percentage of ma
 4. Read the value using scanf.
 5. Find total and average.
 6. Print the result
-7. End 
+7. End .
 ### Program:
 ```c program
 #include <stdio.h>
